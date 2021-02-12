@@ -63,3 +63,22 @@
 </div>
 */
 
+// Angular JS Objects
+
+/*
+<div ng-app="" ng-init="person={firstName:'John',lastName:'Doe'}">
+
+<p>The name is {{ person.lastName }}</p>
+
+</div>
+*/
+
+// same object example using ng-bind
+/*
+<div ng-app="" ng-init="person={firstName:'John',lastName:'Doe'}">
+
+<p>The name is <span ng-bind="person.lastName"></span></p>
+
+</div>
+*/
+
