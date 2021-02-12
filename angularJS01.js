@@ -30,3 +30,19 @@
  
  </div>
  */
+
+// here you can manipulate and change background color of input area
+ /*
+ <div ng-app="" ng-init="myCol='lightblue'">
+
+<input style="background-color:{{myCol}}" ng-model="myCol">
+
+</div>
+*/
+
+// Angular numbers
+/*
+<div ng-app="" ng-init="quantity=3;cost=7">
+<p>Total in dollar: {{ quantity * cost }}</p>
+</div>
+*/
