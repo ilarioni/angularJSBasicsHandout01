@@ -46,3 +46,20 @@
 <p>Total in dollar: {{ quantity * cost }}</p>
 </div>
 */
+
+// some example of Angular numbers using ng-bind
+/*
+<div ng-app="" ng-init="quantity=1;cost=5">
+<p>Total in dollar: <span ng-bind="quantity * cost"></span></p>
+</div>
+*/
+
+// Angular JS Strings
+/*
+<div ng-app="" ng-init="firstName='ilia';lastName='Doe'">
+
+<p>The full name is: {{ firstName + " " + lastName }}</p>
+
+</div>
+*/
+
