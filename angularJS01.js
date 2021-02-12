@@ -82,3 +82,20 @@
 </div>
 */
 
+// Angular JS Arrays
+/*
+<div ng-app="" ng-init="points=[1,15,19,2,40]">
+
+<p>The third result is {{ points[2] }}</p>
+
+</div>
+*/
+
+// Array example using ng-bind
+/*
+<div ng-app="" ng-init="points=[1,15,19,2,40]">
+
+<p>The third result is <span ng-bind="points[2]"></span></p>
+
+</div>
+*/
